@@ -1,0 +1,55 @@
+.vpv-user {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 8px; }
+  .vpv-user:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .vpv-user .vpv-meta {
+    margin-left: 70px; }
+  .vpv-user .vpv-user-image {
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    background-position: center center;
+    background-size: cover; }
+  .vpv-user .vpv-time {
+    color: #bbb;
+    display: block;
+    font-size: 11px; }
+  .vpv-user .vpv-name {
+    color: #333; }
+
+.vpv-box-layer .box_body {
+  max-height: 286px;
+  overflow: auto; }
+
+.vpv-popup-footer {
+  text-align: right;
+  border-top: 1px solid #eee;
+  background: #fff;
+  padding: 9px 19px; }
+  .vpv-popup-footer .post_share_icon {
+    background: url(/img/post_icon.png?4) no-repeat 0 -15px;
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    opacity: 0.4;
+    margin: 2px 0 0;
+    float: left; }
+  .vpv-popup-footer .vpv-share {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #42648b;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 6px;
+    padding: 4px 7px 5px;
+    border-radius: 2px; }
+    .vpv-popup-footer .vpv-share:hover {
+      background-color: #f2f4f7; }
+    .vpv-popup-footer .vpv-share .post_share_link {
+      margin: 1px 0 0 3px; }
